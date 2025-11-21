@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
+// Updated: Nov 21, 2025 - Service images updated for Boston area
 const services = [
   {
     title: "Bathroom",
