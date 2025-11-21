@@ -1,0 +1,4 @@
+# Redirect /cleaningservices/ to subdomain
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?atrionconstruction\.com$ [NC]
+RewriteRule ^cleaningservices(/.*)?$ https://cleaningservices.atrionconstruction.com$1 [R=301,L]

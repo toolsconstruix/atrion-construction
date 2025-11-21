@@ -1,0 +1,2 @@
+# Redirect cleaningservices path to subdomain
+/cleaningservices/* https://cleaningservices.atrionconstruction.com/:splat 301!

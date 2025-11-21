@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/cleaningservices/:path*",
+      "destination": "https://cleaningservices.atrionconstruction.com/:path*",
+      "permanent": true
+    }
+  ]
+}
