@@ -57,11 +57,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-3 text-white/80">
-              <li>Residential Construction</li>
-              <li>Commercial Construction</li>
-              <li>Renovation & Remodeling</li>
+              <li>Bathroom Remodeling</li>
+              <li>Kitchen Renovation</li>
+              <li>Painting Services</li>
               <li>Project Management</li>
-              <li>Custom Home Building</li>
+              <li>Custom Design</li>
             </ul>
           </div>
 

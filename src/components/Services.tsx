@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 
 const services = [
   {
-    title: "Residential Construction",
-    description: "From custom homes to renovations and additions, we bring your vision to life with quality craftsmanship and attention to detail. Our team handles every aspect of residential construction with precision and care.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
-    link: "/services/residential-construction",
+    title: "Bathroom",
+    description: "Transform your bathroom into a luxurious retreat with our expert renovation services. From modern fixtures to complete remodels, we create functional and beautiful spaces tailored to your needs.",
+    image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80",
+    link: "/services/bathroom",
   },
   {
-    title: "Commercial Construction",
-    description: "Expert construction services for commercial properties including offices, retail spaces, and industrial facilities. We deliver projects on time and within budget while maintaining the highest quality standards.",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
-    link: "/services/commercial-construction",
+    title: "Kitchen",
+    description: "Create the kitchen of your dreams with our comprehensive remodeling services. We combine functionality with style, delivering custom cabinetry, modern appliances, and stunning finishes.",
+    image: "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=800&q=80",
+    link: "/services/kitchen",
   },
   {
-    title: "Renovation & Remodeling",
-    description: "Transform your existing space with our comprehensive renovation services. Whether it's a kitchen remodel, bathroom upgrade, or complete home makeover, we ensure exceptional results.",
-    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&q=80",
-    link: "/services/renovation-remodeling",
+    title: "Painting",
+    description: "Professional interior and exterior painting services that bring new life to your space. Our skilled painters deliver flawless finishes with attention to detail and quality materials.",
+    image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&q=80",
+    link: "/services/painting",
   },
   {
     title: "Project Management",
