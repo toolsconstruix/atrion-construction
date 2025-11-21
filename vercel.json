@@ -5,11 +5,16 @@
       "source": "/cleaningservices/:path*",
       "destination": "https://cleaningservices.atrionconstruction.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/cleaningservices",
+      "destination": "https://cleaningservices.atrionconstruction.com/",
+      "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/:path((?!cleaningservices).*)*",
       "destination": "/index.html"
     }
   ],
