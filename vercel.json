@@ -2,19 +2,19 @@
   "buildCommand": "npm run build",
   "redirects": [
     {
-      "source": "/cleaningservices/:path*",
-      "destination": "https://cleaningservices.atrionconstruction.com/:path*",
+      "source": "/cleaningservices",
+      "destination": "https://cleaningservices.atrionconstruction.com/",
       "permanent": true
     },
     {
-      "source": "/cleaningservices",
-      "destination": "https://cleaningservices.atrionconstruction.com/",
+      "source": "/cleaningservices/:path*",
+      "destination": "https://cleaningservices.atrionconstruction.com/:path*",
       "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/:path((?!cleaningservices).*)*",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ],
