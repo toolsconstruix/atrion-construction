@@ -1,20 +1,12 @@
 {
   "redirects": [
     {
-      "source": "/cleaningservices",
-      "destination": "https://cleaningservices.atrionconstruction.com/",
-      "permanent": true
+      "source": "/cleaningservices/:path*",
+      "destination": "https://cleaningservices.atrionconstruction.com/:path*"
     },
     {
-      "source": "/cleaningservices/:path*",
-      "destination": "https://cleaningservices.atrionconstruction.com/:path*",
-      "permanent": true
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/cleaningservices",
+      "destination": "https://cleaningservices.atrionconstruction.com/"
     }
   ]
 }
