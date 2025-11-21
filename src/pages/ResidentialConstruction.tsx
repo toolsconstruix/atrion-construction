@@ -59,7 +59,7 @@ const ResidentialConstruction = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80)`,
+            backgroundImage: `url(https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1920&q=80)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

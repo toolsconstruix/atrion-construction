@@ -7,7 +7,9 @@ import Index from "./pages/Index";
 import Bathroom from "./pages/Bathroom";
 import Kitchen from "./pages/Kitchen";
 import Painting from "./pages/Painting";
-import ProjectManagement from "./pages/ProjectManagement";
+import RenovationRemodeling from "./pages/RenovationRemodeling";
+import ResidentialConstruction from "./pages/ResidentialConstruction";
+import CommercialConstruction from "./pages/CommercialConstruction";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,7 +25,9 @@ const App = () => (
           <Route path="/services/bathroom" element={<Bathroom />} />
           <Route path="/services/kitchen" element={<Kitchen />} />
           <Route path="/services/painting" element={<Painting />} />
-          <Route path="/services/project-management" element={<ProjectManagement />} />
+          <Route path="/services/renovation-remodeling" element={<RenovationRemodeling />} />
+          <Route path="/services/residential-construction" element={<ResidentialConstruction />} />
+          <Route path="/services/commercial-construction" element={<CommercialConstruction />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

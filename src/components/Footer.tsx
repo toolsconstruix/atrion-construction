@@ -60,8 +60,9 @@ const Footer = () => {
               <li>Bathroom Remodeling</li>
               <li>Kitchen Renovation</li>
               <li>Painting Services</li>
-              <li>Project Management</li>
-              <li>Custom Design</li>
+              <li>Renovation & Remodeling</li>
+              <li>Residential Construction</li>
+              <li>Commercial Construction</li>
             </ul>
           </div>
 

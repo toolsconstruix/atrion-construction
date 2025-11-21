@@ -59,7 +59,7 @@ const CommercialConstruction = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80)`,
+            backgroundImage: `url(https://images.unsplash.com/photo-1555636222-cae831e670b3?w=1920&q=80)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

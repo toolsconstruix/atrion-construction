@@ -21,10 +21,22 @@ const services = [
     link: "/services/painting",
   },
   {
-    title: "Project Management",
-    description: "Professional project management services ensuring seamless coordination, timely completion, and quality control throughout every phase of your construction project.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-    link: "/services/project-management",
+    title: "Renovation & Remodeling",
+    description: "Transform your existing space with our comprehensive renovation services. Whether it's a complete home makeover or room-specific updates, we ensure exceptional results that exceed expectations.",
+    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&q=80",
+    link: "/services/renovation-remodeling",
+  },
+  {
+    title: "Residential Construction",
+    description: "From custom homes to renovations and additions, we bring your vision to life with quality craftsmanship and attention to detail. Our team handles every aspect of residential construction with precision and care.",
+    image: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&q=80",
+    link: "/services/residential-construction",
+  },
+  {
+    title: "Commercial Construction",
+    description: "Expert construction services for commercial properties including offices, retail spaces, and industrial facilities. We deliver projects on time and within budget while maintaining the highest quality standards.",
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
+    link: "/services/commercial-construction",
   },
 ];
 
@@ -48,7 +60,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
