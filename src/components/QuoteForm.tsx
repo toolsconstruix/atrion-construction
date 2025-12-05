@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -29,6 +29,19 @@ type QuoteFormData = z.infer<typeof quoteSchema>;
 const QuoteForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+
+  // Ensure the external form script is loaded once on mount
+  useEffect(() => {
+    const existing = document.querySelector(
+      'script[src="https://link.msgsndr.com/js/form_embed.js"]'
+    ) as HTMLScriptElement | null;
+    if (!existing) {
+      const s = document.createElement("script");
+      s.src = "https://link.msgsndr.com/js/form_embed.js";
+      s.async = true;
+      document.body.appendChild(s);
+    }
+  }, []);
   
   const {
     register,
@@ -78,13 +91,25 @@ const QuoteForm = () => {
           </div>
 
           <div className="bg-card p-8 md:p-12 rounded-lg border shadow-lg">
-
-            
-             
-
-            
-            
-            
+            <div className="min-h-[789px]">
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/dCdAddLccmMbFu4QfYCW"
+                style={{ width: "100%", height: "100%", border: "none", borderRadius: 16 }}
+                id="inline-dCdAddLccmMbFu4QfYCW"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="form_lp_Request a Free Quote"
+                data-height="789"
+                data-layout-iframe-id="inline-dCdAddLccmMbFu4QfYCW"
+                data-form-id="dCdAddLccmMbFu4QfYCW"
+                title="form_lp_Request a Free Quote"
+              />
+            </div>
           </div>
         </div>
       </div>
