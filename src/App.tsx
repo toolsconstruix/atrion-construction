@@ -13,6 +13,8 @@ import ResidentialConstruction from "./pages/ResidentialConstruction";
 import CommercialConstruction from "./pages/CommercialConstruction";
 import ScheduleAppointment from "./pages/ScheduleAppointment";
 import AppointmentSuccess from "./pages/AppointmentSuccess";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
 import NotFound from "./pages/NotFound";
 
 const CleaningServicesRedirect = () => {
@@ -41,6 +43,8 @@ const App = () => (
           <Route path="/services/commercial-construction" element={<CommercialConstruction />} />
           <Route path="/schedule-appointment" element={<ScheduleAppointment />} />
           <Route path="/appointment-success" element={<AppointmentSuccess />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
