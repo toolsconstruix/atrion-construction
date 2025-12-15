@@ -45,6 +45,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm shadow-sm z-50">
+      <div className="bg-primary text-primary-foreground">
+        <div className="container mx-auto px-4 py-2 text-center text-sm font-medium">
+          We&apos;re transitioning to ATRION Construction Services (formerly RB Tiles) — same trusted team with a new name.
+        </div>
+      </div>
       <div className="container mx-auto px-4">
         {/* Top bar with contact info */}
         <div className="hidden md:flex items-center justify-end gap-6 py-2 text-sm border-b border-border">
